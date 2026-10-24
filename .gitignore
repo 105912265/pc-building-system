@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database credentials
+.env
+.env.*
+
+# Allow sample environment configuration
+!.env.example
+
+# Downloaded external data
+opendb-source/
+
+# Local database backups
+db_backups/
+
+# IDE
+.vscode/
+.idea/
