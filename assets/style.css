@@ -1,0 +1,338 @@
+.stApp {
+    background: #040424;
+    color: #f2f4ff;
+}
+
+h1 {
+    color: #dfe2ff;
+    font-size: 3.4rem !important;
+    margin-bottom: 0.5rem !important;
+    letter-spacing: 1px;
+}
+
+h2,
+h3 {
+    color: #89f2ff;
+}
+
+.hero-panel {
+    background: linear-gradient(135deg, #060632 0%, #0e0e58 45%, #1e1b7a 100%);
+    border-radius: 28px;
+    padding: 30px 34px;
+    margin-bottom: 22px;
+    border: 1px solid rgba(108, 212, 255, 0.25);
+    box-shadow: 0 0 35px rgba(34, 195, 255, 0.12);
+}
+
+.hero-tag {
+    color: #58dbff;
+    font-size: 0.95rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero-panel p {
+    color: #d4dbff;
+    font-size: 1rem;
+    max-width: 760px;
+}
+
+.build-choice-card {
+    background: linear-gradient(180deg, rgba(248, 248, 255, 0.96), rgba(230, 236, 255, 0.96));
+    color: #1d1f54;
+    border-radius: 20px;
+    padding: 22px;
+    min-height: 250px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
+    margin-bottom: 12px;
+}
+
+.build-choice-title {
+    font-size: 1.45rem;
+    font-weight: 900;
+    color: #4132c7;
+    margin-bottom: 8px;
+}
+
+.build-choice-price {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #10173f;
+}
+
+.build-choice-power {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #4132c7;
+    font-weight: 800;
+    font-size: 1.05rem;
+}
+
+.mini-meter {
+    width: 100%;
+    height: 12px;
+    border-radius: 999px;
+    background: rgba(16, 23, 63, 0.15);
+    overflow: hidden;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.mini-meter-fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #25d7ff, #6f5fff, #ff4678);
+}
+
+.positive-text {
+    color: #0f8b52;
+    font-weight: 800;
+}
+
+.warning-text {
+    color: #b86800;
+    font-weight: 800;
+}
+
+.gauge-panel {
+    background: linear-gradient(180deg, #04042a 0%, #0b0b52 100%);
+    border-radius: 24px;
+    padding: 24px;
+    border: 1px solid rgba(78, 183, 255, 0.28);
+    box-shadow: 0 0 30px rgba(29, 195, 255, 0.12);
+    text-align: center;
+}
+
+.gauge-wrapper {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.gauge-ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 210deg,
+        #00d9ff 0deg,
+        #2fb3ff 70deg,
+        #5e64ff 160deg,
+        #ff2f75 250deg,
+        #ff5252 320deg,
+        #00d9ff 360deg
+    );
+    filter: drop-shadow(0 0 12px rgba(42, 214, 255, 0.6));
+}
+
+.gauge-inner {
+    position: absolute;
+    inset: 18px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #081047 0%, #060627 70%);
+    z-index: 2;
+}
+
+.gauge-needle {
+    position: absolute;
+    width: 5px;
+    height: 88px;
+    left: 122px;
+    top: 38px;
+    background: #ffd34d;
+    border-radius: 999px;
+    transform-origin: 50% 87%;
+    z-index: 4;
+    box-shadow: 0 0 10px rgba(255, 211, 77, 0.9);
+}
+
+.gauge-center {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 112px;
+    top: 112px;
+    border-radius: 50%;
+    background: #ff4a72;
+    z-index: 5;
+    box-shadow: 0 0 14px rgba(255, 74, 114, 0.85);
+}
+
+.gauge-score {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 86px;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #8cf7ff;
+    z-index: 6;
+}
+
+.gauge-label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 132px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #d8ddff;
+    z-index: 6;
+}
+
+.benchmark-strip {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.benchmark-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 14px 18px;
+    min-width: 120px;
+    text-align: center;
+    border: 1px solid rgba(119, 214, 255, 0.18);
+}
+
+.benchmark-title {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.benchmark-value {
+    color: #8cf7ff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 6px;
+}
+
+.benchmark-subtitle {
+    color: #cdd4ff;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+.games-panel-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #8cf7ff;
+    margin-bottom: 12px;
+}
+
+.fps-output-panel {
+    margin-top: 30px;
+}
+
+.fps-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(119, 214, 255, 0.12);
+}
+
+.fps-game {
+    color: #f4f5ff;
+    font-weight: 700;
+}
+
+.fps-value {
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.fps-high {
+    color: #53f59b;
+}
+
+.fps-medium {
+    color: #89f2ff;
+}
+
+.fps-low {
+    color: #ffd566;
+}
+
+.customise-panel {
+    background: linear-gradient(135deg, #0c0c4f, #181878);
+    border-radius: 20px;
+    padding: 18px 22px;
+    margin-bottom: 18px;
+    border: 1px solid rgba(119, 214, 255, 0.18);
+}
+
+.customise-title {
+    color: #cfd6ff;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.customise-value {
+    color: #89f2ff;
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-top: 4px;
+}
+
+.final-panel {
+    background: linear-gradient(180deg, #090939 0%, #12125f 100%);
+    border-radius: 24px;
+    padding: 24px;
+    border: 1px solid rgba(89, 217, 255, 0.2);
+    box-shadow: 0 0 28px rgba(32, 193, 255, 0.08);
+}
+
+.final-component-row {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+}
+
+.final-summary-line {
+    font-size: 1rem;
+    color: #f2f4ff;
+    margin-top: 10px;
+}
+
+div.stButton > button {
+    background: linear-gradient(90deg, #2ad4ff, #6f5fff);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 0.7rem 1.1rem;
+    font-weight: 800;
+}
+
+div.stButton > button:hover {
+    box-shadow: 0 0 18px rgba(70, 220, 255, 0.45);
+    color: #ffffff;
+}
+
+section[data-testid="stSidebar"] {
+    background: #09093d;
+}
+
+section[data-testid="stSidebar"] label {
+    color: #f4f5ff !important;
+}
+
+.stSelectbox label,
+.stNumberInput label,
+.stMultiSelect label {
+    color: #f4f5ff !important;
+    font-weight: 700;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 16px;
+}

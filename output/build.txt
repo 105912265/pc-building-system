@@ -1,0 +1,11 @@
+PC Build Summary
+----------------
+CPU_Name: AMD Ryzen 9 5950X, Price: $649.74, Wattage: 105W, CPU Mark: 46195, Single Thread Score: 3498, Power Performance: 439.96, Cores: 16, Socket: AM4
+GPU_Name: GeForce RTX 3070 Ti, Price: $749.99, Wattage: 290W, G3D Mark: 23367, G2D Mark: 1003, Power Efficiency: 80.58
+Motherboad_Name: MSI B550M PRO-VDH WiFi, Price: $149.0, Wattage: 40W, Socket: AM4, RAM Type: DDR4
+RAM_Name: Kingston Fury Beast 16GB DDR4, Price: $59.0, Wattage: 8W, Size: 16GB, RAM Type: DDR4
+Storage_Name: Samsung 990 Pro 2TB NVMe SSD, Price: $249.0, Wattage: 8W, Capacity: 2000GB, Type: NVMe
+PSU_Name: MSI MAG A650BN, Price: $99.0, Wattage: 650W, Efficiency: 80+ Bronze
+
+Total price: $1955.73
+Total wattage: 1101W

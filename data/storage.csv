@@ -1,0 +1,9 @@
+name,price,wattage,capacity_gb,storage_type
+Kingston NV2 500GB NVMe SSD,45,5,500,NVMe
+Crucial P3 1TB NVMe SSD,85,6,1000,NVMe
+Samsung 980 1TB NVMe SSD,119,6,1000,NVMe
+WD Black SN770 1TB NVMe SSD,129,6,1000,NVMe
+Crucial P3 Plus 2TB NVMe SSD,169,7,2000,NVMe
+Samsung 990 Pro 2TB NVMe SSD,249,8,2000,NVMe
+Seagate Barracuda 2TB HDD,79,8,2000,HDD
+WD Blue 4TB HDD,129,9,4000,HDD

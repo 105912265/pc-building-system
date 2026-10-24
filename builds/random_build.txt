@@ -1,0 +1,10 @@
+PC Build Summary
+----------------
+Brand: Intel, Name: Core i5-13400F, Price: 300.0, Wattage: 65, Cores: 10, Socket: LGA1700
+Brand: NVIDIA, Name: RTX 3050, Price: 330.0, Wattage: 130, VRAM: 8
+Brand: Crucial, Name: 16GB DDR5 5200, Price: 110.0, Wattage: 8, Capacity: 16, Type: DDR5, Frequency: 5200
+Brand: Samsung, Name: 1TB SATA SSD, Price: 95.0, Wattage: 4, Type: SATA SSD, Capacity: 1000
+Brand: MSI, Name: B760 Gaming Plus WiFi, Price: 260.0, Wattage: 55, Socket: LGA1700, RAM_Type: DDR5, WIFI: Yes
+Brand: Cooler Master, Name: 550W Bronze, Price: 80.0, Watts: 550
+
+Total price: $1175.0

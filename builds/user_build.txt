@@ -1,0 +1,10 @@
+PC Build Summary
+----------------
+Brand: Intel, Name: Core i9-13900K, Price: 750.0, Wattage: 253, Cores: 24, Socket: LGA1700
+Brand: NVIDIA, Name: RTX 4080 Super, Price: 1700.0, Wattage: 320, VRAM: 16
+Brand: Corsair, Name: 64GB DDR5 6000, Price: 390.0, Wattage: 20, Capacity: 64, Type: DDR5, Frequency: 6000
+Brand: Western Digital, Name: 4TB NVMe SSD, Price: 520.0, Wattage: 10, Type: NVMe SSD, Capacity: 4000
+Brand: Gigabyte, Name: Z790 Aorus Elite AX, Price: 430.0, Wattage: 70, Socket: LGA1700, RAM_Type: DDR5, WIFI: Yes
+Brand: EVGA, Name: 750W Gold, Price: 150.0, Watts: 750
+
+Total price: $3940.0
