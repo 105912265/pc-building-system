@@ -80,7 +80,7 @@ def list_components(
         cursor.execute(query, tuple(parameters))
         components = cursor.fetchall()
         for component in components:
-            component["price"] = float(component["price"])
+            component["price"] = (float(component["price"])if component["price"] is not None else None)
             specs = component["specifications"]
             if isinstance(specs, str):
                 component["specifications"] = json.loads(specs)

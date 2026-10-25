@@ -1,0 +1,28 @@
+Generated: 2026-10-25
+Input rows recovered: 2478
+IMPORTANT: these prices are synthetic/estimated for demonstration, NOT verified live offers.
+
+CATEGORY ESTIMATES (AUD)
+CPU               116  minimum $     105  median $     355  maximum $   1,050
+GPU              1056  minimum $     140  median $     730  maximum $   7,700
+Motherboard       625  minimum $      90  median $     290  maximum $   1,145
+RAM               511  minimum $      45  median $     820  maximum $   7,000
+Storage            62  minimum $      35  median $     155  maximum $   1,460
+PSU               108  minimum $      85  median $     180  maximum $     500
+
+VALIDATION FLAGS (some records have multiple flags)
+older_gpu_assumed_used_market: 201
+low_confidence_estimation: 18
+high_capacity_ram_price_uncertain: 9
+oem_tray_cpu: 8
+estimate_clipped_to_bounds: 8
+workstation_gpu_not_gaming: 3
+release_year_socket_conflict: 1
+release_year_model_conflict: 1
+
+NOTES
+- MySQL Workbench export embedded unescaped JSON strings. Recovered and parsed all JSON records.
+- All source release_date fields were NULL; release_year came from JSON specifications.
+- 2017-to-2026 hardware included; 2017 GPUs typically use used-market rather than original MSRP assumptions.
+- Some source release years are inconsistent with model/socket; flagged for manual review.
+- Seed values are NOT source-verified individual quotes.
