@@ -1,15 +1,23 @@
-"""Phase 5 PC Builder API — first milestone: read the existing component catalogue."""
+"""Phase 5 PC Builder API."""
 
 import json
 import logging
-
 import mysql.connector
+
 from fastapi import FastAPI, HTTPException, Query
 
 from backend.database import get_db_connection
+from backend.price_auth import router as auth_router
+from backend.price_routes import router as price_router
 
 logger = logging.getLogger(__name__)
+
 app = FastAPI(title="PC Builder API", version="0.1.0")
+
+# Register authentication and component pricing endpoints
+app.include_router(auth_router)
+app.include_router(price_router)
+
 
 
 @app.get("/")
